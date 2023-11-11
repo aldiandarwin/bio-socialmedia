@@ -1,0 +1,45 @@
+/* global.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 255, 255, 255;
+    --gradient-start-rgb: 39, 132, 255;
+    /* Bright Blue */
+    --gradient-end-rgb: 255, 87, 34;
+    /* Orange */
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(to right, rgb(var(--gradient-start-rgb)), rgb(var(--gradient-end-rgb)));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* Ensure full viewport height */
+    margin: 0;
+    /* Remove default body margin */
+    font-family: 'Inter', sans-serif;
+    /* Use Inter font */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 640px) {
+    body {
+        background: linear-gradient(to bottom, rgb(var(--gradient-start-rgb)), rgb(var(--gradient-end-rgb)));
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    body {
+        background: linear-gradient(to right, rgb(var(--gradient-start-rgb)), rgb(var(--gradient-end-rgb)));
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    body {
+        background: linear-gradient(to top right, rgb(var(--gradient-start-rgb)), rgb(var(--gradient-end-rgb)));
+    }
+}
