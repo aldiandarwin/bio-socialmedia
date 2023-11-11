@@ -33,7 +33,7 @@ Track clicks, user engagement, and popular links.
 Ensures a seamless user experience across devices.
 Responsive and visually appealing layouts for desktop and mobile.
 
-[<img width="270" alt="rainbow-mobile.png"] src="<https://github.com/aldiandarwin/bio-socialmedia/assets/70283015/fe6d6a53-2b39-48a9-903e-697de3326f9a">>
+![rainbow.mobile.png](https://github.com/aldiandarwin/bio-socialmedia/assets/70283015/fe6d6a53-2b39-48a9-903e-697de3326f9a)
 
 ## Next.js and Strapi Synergy
 
